@@ -1,0 +1,34 @@
+
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,800,800i,900,900i";
+.login-page{width:430px;padding:4% 0 0;margin:auto}
+.form{position:relative;z-index:1;background:#fff;max-width:500px;margin:0 auto 0px;padding:45px;text-align:center;-webkit-box-shadow:0 0 41px 0 rgba(0,0,0,0.09);-moz-box-shadow:0 0 41px 0 rgba(0,0,0,0.09);box-shadow:0 0 41px 0 rgba(0,0,0,0.09);border-radius:8px}
+.copyright{position:relative;z-index:1;background:transparent;max-width:500px;margin:0 auto 10px;padding:15px;text-align:center;color:gray;font-size:14px}
+.copyright a{color:#cf455c;text-decoration:none;font-weight:600;font-size:14px}
+.copyright a:hover{text-decoration:underline}
+.form input,select{line-height:36px;padding:5px 17px;border-radius:4px;transition:all .1s;box-sizing:border-box;background-color:#f8fcfd;border:1px solid #e9f2f9;width:100%;margin:0 0 15px;font-size:14px;font-family:roboto;outline:none}
+::placeholder{color:#899bb4;opacity:1}
+.form input:hover,.form input:focus{border-color:#dce8f2}
+.block{background-color:#fff}
+.form .button{font-family:'Roboto',sans-serif;text-transform:uppercase;outline:0;background:#facf5a;width:100%;padding:15px;color:#000;font-size:17px;font-weight:500;-webkit-transition:all .3 ease;transition:all .3 ease;cursor:pointer;transition:all .3s;border-radius:8px;border:0}
+.form .button:hover,.form .button:active,.form .button:focus{background:#f2c038;color:#000}
+.btn-regjistrohu{font-family:'Roboto',sans-serif;text-transform:uppercase;outline:0;background:#ff5959;width:100%;padding:15px;color:#FFF;font-size:17px;font-weight:500;-webkit-transition:all .3 ease;transition:all .3 ease;cursor:pointer;transition:all .3s;border-radius:8px;border:0}
+.btn-regjistrohu:hover,.btn-regjistrohu:active,.btn-regjistrohu:focus{background:#fa7070}
+.btn-regjistrohu2{font-family:'Roboto',sans-serif;text-transform:uppercase;outline:0;background:#ff5959;width:100%;padding:15px;color:#FFF;font-size:17px;font-weight:500;-webkit-transition:all .3 ease;transition:all .3 ease;cursor:pointer;transition:all .3s;border-radius:5px;border:0}
+.btn-regjistrohu2:hover,.btn-regjistrohu2:active,.btn-regjistrohu2:focus{background:#fa7070}
+.form .message{margin:15px 0 0;color:gray;font-size:13px}
+.form .message a{color:#ff5959;text-decoration:none;font-weight:600;padding-top:2px;padding-bottom:2px;border-bottom:solid 1px transparent;transition:all .3s}
+.form .message a:hover{text-decoration:none;border-bottom:solid 1px #ff5959}
+.form .message2{margin:15px 0 0;color:gray;font-size:15px}
+.form .message2 a{color:#ff5959;text-decoration:none;font-weight:600;padding-top:2px;padding-bottom:2px;border-bottom:solid 1px transparent;transition:all .3s}
+.form .message2 a:hover{text-decoration:none;border-bottom:solid 1px #ff5959}
+.form .register-form{display:none}
+.container{position:relative;z-index:1;max-width:300px;margin:0 auto}
+.container:before,.container:after{content:"";display:block;clear:both}
+.container .info{margin:50px auto;text-align:center}
+.container .info h1{margin:0 0 15px;padding:0;font-size:36px;font-weight:300;color:#1a1a1a}
+.container .info span{color:#4d4d4d;font-size:12px}
+.container .info span a{color:#000;text-decoration:none}
+.container .info span .fa{color:#ff5959}
+.logos {font-size: 4.5rem;padding-right: 1.5rem;color: var(--black);cursor: pointer;}
+.logos:hover{color: #ff3a09;}
+.loginform{background:#fdfdf4;font-family:'Roboto',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
