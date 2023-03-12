@@ -1,0 +1,199 @@
+@import url('https://fonts.cdnfonts.com/css/vintage-lander-personal-use');
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,800,800i,900,900i";
+
+
+.vintage{
+    font-family: 'Vintage Lander personal use', sans-serif;                                               
+}
+
+:root{
+    --maincolor:#ff3a09;
+    --dark-color:#962003;
+    --black:#444;
+    --light-color:#666;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+*{
+
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition:all .2s linear;
+    transition:width none;
+}
+
+
+.header .header-1{
+    background:#fff;
+    padding:1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-1 .logo{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color:var(--black);
+}
+
+.header .header-1 .logo i{
+    color:var(--maincolor);
+}
+
+.header .header-1 .search-form{
+    width:32rem;
+    height:3.2rem;
+    border:var(--border);
+    overflow: hidden;
+    background:#fff;
+    display:flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+.header .header-1 .search-form input{
+    outline: none; border:none;
+    font-size: 1rem;
+    padding:0 1.2rem;
+    height:100%;
+    width:100%;
+    text-transform: none;
+    color:var(--black);
+}
+
+.header .header-1 .search-form label{
+    font-size: 1.6rem;
+    padding-right: 1.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+
+.header .header-1 .search-form label:hover{
+    color:var(--maincolor);
+}
+
+.header .header-1 .icons div,
+.header .header-1 .icons a{
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+
+.header .header-1 .icons div:hover,
+.header .header-1 .icons a:hover{
+    color:var(--maincolor);
+}
+
+#search-btn{
+    display: none;
+}
+
+.header .header-2{
+    background:var(--maincolor);
+}
+
+.header .header-2 .navbar{
+    text-align: center;
+}
+
+.header .header-2 .navbar a{
+    color:#fff;
+    display: inline-block;
+    padding:1.2rem;
+    font-size: 1.7rem;
+}
+
+.header .header-2 .navbar a:hover{
+    background:var(--dark-color);
+}
+
+.header .header-2.active{
+    position:fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+
+}
+
+.bottom-navbar{
+    text-align: center;
+    background:var(--maincolor);
+    position: fixed;
+    bottom:0; left:0; right:0;
+    z-index: 1000;
+    display: none;
+}
+
+.bottom-navbar a{
+    font-size: 1.6rem;
+    padding:2rem;
+    color:#fff;
+}
+
+.bottom-navbar a:hover{
+    background:var(--dark-color);
+}
+.link-head-title
+{
+  color:#fff;
+  font-size:19px;
+  text-decoration:none;
+}
+
+.link-head
+{
+  font-family:'Roboto',sans-serif;
+  position:relative;
+  color:#312e2f;
+  font-size:14px;
+  text-decoration:none;
+  transition:all .3s;
+  transition:ease-in .4s;
+  transition:ease-out .2s;
+  padding:8px 11px;
+  border-radius: 15px;
+}
+.link-head:hover {
+  background: #49beb7;
+  color:#fff;
+  transition:all .3s;
+  transition:ease-in .4s;
+  transition:ease-out .2s;
+}
+.logout
+{
+  text-decoration:none;
+  background:#ff5959;
+  color:#fff;
+  padding:8px 13px;
+  border-radius:30px;
+  transition:all .3s;
+  border:0;
+  font-size:15px;
+}
+
+.logout:hover,.logout:focus
+{
+  background:#fc6f6f;
+  color:#fff
+}
+.profili
+{
+  text-decoration:none;
+  background:#000000;
+  color:#fff;
+  padding:8px 13px;
+  border-radius:30px;
+  transition:all .3s;
+  border:0;
+  font-size:15px;
+}
+
+.profili:hover,.profili:focus
+{
+  background:#4a4a4a;
+  color:#fff
+}
